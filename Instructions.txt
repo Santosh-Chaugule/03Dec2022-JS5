@@ -1,0 +1,20 @@
+Data is some information
+"santosh" //string 
+ 30// number
+anything
+
+= this is Assingment Operator
+associativity of the = operator
+left= right
+
+var name ="santosh"// string
+
+var numb1 = 43// Interger/Number
+
+var hight = 5.6// float/decimal
+
+
+
+
+
+
