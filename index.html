@@ -28,6 +28,8 @@
       console.log(typeof y);
 
       alert(typeof x);
+
+      //document.quaryselector
     </script>
   </head>
   <body>
@@ -35,9 +37,16 @@
 
     <p class="para">We check the Output of the JS by the InnerHTML</p>
 
+    <span data-santosh="abc"></span>
+    <span id="xyz"></span>
+
     <!-- <script src=""></script> This is script linking for external file linking -->
     <script>
       // This Section for JS coding
+      document.querySelector("p.para").innerHTML = typeof y;
+      document.querySelector('span[data-santosh="abc"]').innerHTML =
+        "good morning";
+      document.querySelector("span#xyz").innerHTML = "How are you?";
     </script>
   </body>
 </html>
